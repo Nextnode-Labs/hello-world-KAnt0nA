@@ -1,12 +1,16 @@
-import logo from './logo.svg';
+import React, { Component } from 'react'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
-  );
+const App = () => {
+    return ( 
+        <div className='app-wrapper'>
+            <header>
+                <img src='https://assets.hongkiat.com/uploads/logo-parodies/starbucks-coffee_star-wars-coffee.jpg?newedit'/>
+            </header>
+            <nav></nav>
+
+        </div>
+    )
 }
 
 export default App;
