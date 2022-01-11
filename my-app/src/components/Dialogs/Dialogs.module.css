@@ -1,4 +1,11 @@
-.content {
-    grid-area: c;
-    background-color: lightgreen;
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogItems {
+
+}
+.dialog {
+
 }
