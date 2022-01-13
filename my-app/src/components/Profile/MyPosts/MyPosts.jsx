@@ -5,10 +5,10 @@ import Post from "./Posts/Post";
 const MyPosts = () => {
     return (
         <div>
-            My posts
+            <h3>My posts</h3>
             <div>
-                <button>add post</button>
-                <button>remove post</button>
+                <div><textarea></textarea></div>
+                <div><button>add post</button></div>                
             </div>
             <Post />
             <Post />

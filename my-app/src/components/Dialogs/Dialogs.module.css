@@ -4,8 +4,14 @@
 }
 
 .dialogItems {
-
+    color: honeydew;
+}
+.dialogItems .active {
+    color: rgb(247, 247, 130); 
 }
 .dialog {
-
+    padding: 10px;
+}
+.message {
+    padding: 10px;
 }
